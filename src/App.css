@@ -1,0 +1,249 @@
+ul{
+  list-style: none;
+}
+
+.spacing{
+  padding-top: 18px;
+}
+
+.lrSpacing{
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+#srchButton{
+  border-style: none;
+  background: transparent;
+}
+
+.shadow1{
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.56);
+}
+
+#srchInput{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border: none;
+  box-shadow: none;
+  font-size: small;
+  background: transparent;
+}
+
+#srchBorder{
+  border: 2px solid black;
+  border-radius: 15px;
+  
+}
+
+.fontColor{
+  color: black !important;
+}
+
+/* .division1{
+  background-image: url("./images/gradient.png");
+  height: auto;
+  width: auto;
+  border: none;
+  
+
+} */
+        body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+
+.textFormatting{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  
+}
+
+.textNavbar{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+
+.sizing{
+  max-width: 1080px;
+  max-height: 420px;
+
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+#navbar{
+  box-shadow: rgba(0, 0, 0, 0.56);
+  border: none;
+  max-height: 74px;
+  
+}
+
+#buildButton{
+  border-radius: 5px !important;
+  background-color: #07c426;
+  box-shadow: 1px 3px 5px #303030;
+  margin-top:10px;
+  margin-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.hvr :hover{
+  font-size: 1.50rem !important;
+  text-shadow: 0px 1px 1px rgba(60, 4, 189, 0.363);
+}
+
+#nav-items{
+max-width: 718.8px;
+}
+
+
+.division2{
+
+  height: auto;
+  width: auto;
+  border: none;
+}
+
+/* .division3{
+  border: none;
+  background: white;
+  padding-bottom: 50px;
+} */
+.footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.love{
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items:center;
+}
+
+.user{
+
+    content: "\f234";
+    color: white;
+}
+
+.name{
+    font-family: 'Poppins', sans-serif;
+}
+.slider-container {
+    width: 10%;
+    height: 10%;
+    
+    top:10px; /* set top and left 0 */
+    left:20px;
+}
+.slider-item-div {
+    padding: 20px;
+    
+    text-align: center;
+    height: 50%;
+    width: 50%;
+}
+.carousel-style {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75% !important;
+    width: 70% !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.cards {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cards__item {
+  display: -webkit-box;
+  display: flex;
+  padding: 1rem;
+}
+@media (min-width: 56rem) {
+  .cards__item {
+    width: 50%;
+  }
+}
+@media (min-width: 56rem) {
+  .cards__item {
+    width: 50%;
+  }
+}
+.card {
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  overflow: hidden;
+}
+.card:hover .card__image {
+  -webkit-filter: contrast(100%);
+          filter: contrast(100%);
+}
+.card__content {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 1;
+          flex: 1 1 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  padding: 1rem;
+}
+@media (min-width: 40rem) {
+  ::before {
+    padding-top: 66.6%;
+  }
+}
+.card__title {
+  color: #000000;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+
+}
+.card__text {
+  -webkit-box-flex: 1;
+          flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  
+  font-family: 'Poppins', sans-serif;
+}
